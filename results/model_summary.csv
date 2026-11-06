@@ -1,0 +1,8 @@
+model,mean_MAPE_%_time_folds,mean_MAE_time_folds,last_fold_MAPE_%,last_fold_MAE,random_split_MAPE_%
+baseline_local_median,4.362,102.132,3.478,77.152,4.084
+linear_regression,3.775,86.442,5.072,118.186,3.056
+lightgbm_no_market,3.255,79.33,1.861,42.8,2.861
+lightgbm_all_features,2.482,56.401,3.114,72.582,1.4
+hybrid_market_trend,2.438,56.987,1.984,45.689,1.708
+hybrid_final,1.967,44.611,1.829,42.286,1.566
+hybrid_final_plus_dow,1.767,40.55,2.013,46.778,1.552
